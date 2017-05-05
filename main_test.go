@@ -9,8 +9,8 @@ import (
 
 func TestThing(t *testing.T) {
 	conf := &oauth2.Config{
-		ClientID:     "bab74605b741c3ba9aa8",
-		ClientSecret: "39412d02bbbca3170efb83311a0a11b60cbcf176",
+		ClientID:     "id",
+		ClientSecret: "secret",
 		Scopes:       []string{"user"},
 		Endpoint: oauth2.Endpoint{
 			AuthURL:  "https://github.com/login/oauth/authorize",
